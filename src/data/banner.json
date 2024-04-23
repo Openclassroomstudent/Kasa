@@ -1,0 +1,15 @@
+[
+        {
+            "id": "1",
+            "img": "./assets/img/banner-1.png",
+            "alt": "La mer et des rochers",
+            "title": "Chez vous, partout et ailleurs"
+        },
+        {
+            "id": "2",
+            "img": "./assets/img/banner-2.png",
+            "alt": "Montagnes",
+            "title": ""
+        }
+   
+]

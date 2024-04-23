@@ -1,0 +1,33 @@
+.navigation {
+    width: 309px;
+    height: 34px;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 45px;
+    right: 55px;
+
+    @media (max-width: 768px) {
+        top: 35px;
+        right: 10px;
+    }
+    .navigation-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .nav-link {
+            color: $color-1;
+            font-size: 24px;
+            font-weight: 500;
+            margin-right: 30px;
+
+            @media (max-width: 768px) {
+                font-size: 12px;
+                margin-right: 20px;
+            }
+            &-active {
+                border-bottom: solid 3px $color-1;                
+            }           
+        }        
+    }
+}
