@@ -6,9 +6,9 @@ import Banner from '../components/Banner';
 
 const About = () => {    
     return (
-        <div class="about-container">
+        <div className="about-container">
             <Banner img={BannerImageAbout} />
-            <div class="about-collapse">
+            <div className="about-collapse">
                 {collapseData.map((item) => (
                     <DropDown key={item.id} title={item.title} content={item.content} />
                 ))}

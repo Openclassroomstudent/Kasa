@@ -1,9 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Tag = ({ tag }) => {
-    return (
-        <div className="tag">{tag}</div>
-    );
-};
+  return <div className="tag">{tag}</div>
+}
 
-export default Tag;
+export default Tag
