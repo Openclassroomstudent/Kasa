@@ -12,7 +12,7 @@ const Router = () => {
                  element={<FicheLogement />}
                  />
                  <Route path="/About" element={<About/>}/>
-                 <Route path="/NotFound" element={<NotFound />}/>
+                 <Route path="*" element={<NotFound />}/>
 
         </Routes>
     );
